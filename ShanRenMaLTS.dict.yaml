@@ -1,0 +1,13 @@
+
+# 导入单字码表
+# encoding: utf-8
+---
+name: ShanRenMaLTS
+version: "2023.03.03"
+sort: by_weight
+user_preset_vocabulary: false
+import_tables:
+  - ShanRenMaLTS.words
+  - ShanRenMaLTS.BRIEF
+  - ShanRenMaLTS.phrases_CORE
+...
