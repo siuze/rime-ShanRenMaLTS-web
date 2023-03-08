@@ -103,7 +103,7 @@ recognizer:
   import_preset: default
   patterns:
     punct: "^/[0-9]*[a-z]*$"
-    pinyin: "`[a-z]+$"
+    pinyin: "[`/][a-z]*$"
 
 key_binder:
   import_preset: default
